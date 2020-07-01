@@ -1,0 +1,161 @@
+// File: _about.scss
+// styles.
+
+/* STYLES GO HERE */
+$white: #F8F8F8;
+$black: #272727;
+$salmon: #F26958;
+
+strong {
+  color: $salmon;
+}
+
+main.about {
+  margin-top: 4.5rem;
+  background-color: $white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div.from-boat {
+
+    h1 {
+      font-family: montserrat, sans-serif;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 110px;
+      color: $white;
+
+      z-index: 1;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    img {
+      position: relative;
+      z-index: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+  }
+
+  div.to-fulton-content {
+    display: flex;
+    padding: 6rem 7rem 0rem 7rem;
+    justify-content: center;
+
+    div.to-fulton-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 650px;
+
+      h3 {
+        margin: 0rem;
+        //margin-bottom: 1rem;
+
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 45px;
+        color: $black;
+      }
+
+      p {
+        margin: 0rem;
+        margin-top: 2rem;
+
+        font-family: montserrat, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 30px;
+        color: $black;
+        line-height: 55px;
+
+        padding-left: 2rem;
+
+      }
+    }
+
+    div.to-fulton-image {
+      display: flex;
+      align-items: flex-end;
+
+      img {
+        object-fit: cover;
+        width: 650px;
+        align-items: end;
+        margin-left:3rem;
+      }
+    }
+  }
+
+  div.to-fulton-dishes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //background-color: $black;
+    width: 100%;
+
+      img.fish-bucket {
+        width: 250px;
+        height: 350px;
+        object-fit: contain;
+      }
+
+      img.lobster-dish {
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+      }
+
+      img.fish-dish {
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+      }
+
+  }
+
+
+  div.to-home {
+    img {
+      position: relative;
+      z-index: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+
+      margin: 0rem;
+    }
+
+    div.to-home-text {
+      position: absolute;
+      top: 265%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      h3 {
+        font-family: montserrat, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 110px;
+        color: $white;
+      }
+
+      p {
+        font-family: montserrat, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 40px;
+        color: $white;
+      }
+
+    }
+  }
+}

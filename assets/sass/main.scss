@@ -1,0 +1,9 @@
+// File: main.scss
+// this file should ONLY contain the imports for the above files
+
+@import './structure/colors.scss';
+@import './structure/header.scss';
+@import './structure/footer.scss';
+@import './structure/layout.scss';
+@import './pages/about.scss';
+@import './components/order_form.scss';

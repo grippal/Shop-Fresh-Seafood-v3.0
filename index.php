@@ -1,60 +1,94 @@
 <?php
-	/**
-	 * HTML skeleton for the main content of the webpage.
-	 *
-	 * @package ShopFreshSeafood
-	 * @since   1.0.0
-	 * @author  Luke Grippa
-	 * @link    https://github.com/grippal?tab=repositories
-	 * @license GNU General Public License 2.0+
-	 */
+    /**
+     * HTML skeleton for the main content of the webpage.
+     *
+     * @package ShopFreshSeafood
+     * @since   1.0.0
+     * @author  Luke Grippa
+     * @link    https://github.com/grippal?tab=repositories
+     * @license GNU General Public License 2.0+
+     */
 
-	namespace ShopFreshSeafood;
-	?>
+    namespace ShopFreshSeafood;
 
-		<?php
-	include 'lib/structure/header.php';
-	?>
+    ?>
 
-        <main class="about">
-            <div class="from-boat">
-                <h1>from the boat</h1>
-                <img src="assets/images/man_holding_fish.png" alt="man on a boat holding a fish">
+<?php
+    include 'lib/structure/header.php';
+    ?>
+<div class="fixed-header-gap">
+
+</div>
+
+<main class="about container">
+
+
+    <section class="row section1">
+        <img src="./assets/images/fish_bucket_full.jpg" class="fish-bucket" alt="">
+        <div class="column column-left">
+            <h1>The freshest fish</h1>
+            <h1>delivered weekly</h1>
+        </div>
+        <div class="column column-right">
+            <h4>Now delivering to:</h4>
+            <h6>Upper Saddle River</h6>
+            <h6>Saddle River</h6>
+            <button type="button" name="button">Order Now!</button>
+        </div>
+
+    </section>
+    <section class="row section2">
+        <article class="row row1">
+            <div class="column">
+                <h2>from the Fulton Fish Market</h2>
+                <p>located in the <strong> Bronx, NY</strong>, the
+                    Fulton Fish Market, is the second largest fish market
+                    <strong>worldwide</strong> and supplies NYC’s finest
+                    restaurants with the freshest available fish.</p>
+                <p><strong>millions</strong> of pounds of seafood flow
+                    through the market daily and annual sales exceed
+                    <strong>one billion dollars</strong>.</p>
             </div>
-            <div class="to-fulton-content">
-                <div class="to-fulton-text">
-                    <h3>to the Fulton Fish Market</h3>
-                    <p>located in the Hunts Point section of the <strong>Bronx</strong>, <strong>NY</strong>, the Fulton
-                        Fish Market, is second in size <strong>worldwide</strong> only to Tokyo’s Tsukiji wholesale seafood market.</p>
-                    <p><strong>millions</strong> of pounds of seafood flow through the market daily and annual sales
-                        exceed <strong>one billion dollars</strong>.</p>
+            <div class="column">
+                <img src="./assets/images/fulton_fish_market.png" alt="">
+            </div>
+        </article>
+        <div class="row row2">
+            <button type="button" name="button">Learn where our
+                fish comes from!</button>
+        </div>
+    </section>
+    <section class="row section3">
+        <div class="column testimonials">
+            <p>“ I’ve tried fish from all of my local supermarkets and
+                this is by far the best seafood I have ever eaten. ”</p>
+            <div class="customers">
+                <img src="./assets/images/anthony_ceccon.jpg" alt="">
+                <div class="customer-names">
+                    <p>Anthony Ceccon</p>
+                    <p>Saddle River Resident</p>
                 </div>
-                <div class="to-fulton-image">
-                    <img src="assets/images/fulton_fish_market.png" alt="the Fulton Fish Market">
+            </div>
+        </div>
+        <div class="column testimonials">
+            <p>“ I always thought fish was supposed to taste fishy until
+                I ordered from you guys. ”</p>
+            <div class="customers">
+                <img src="./assets/images/lisa_tantillo.jpg" alt="">
+                <div class="customer-names">
+                    <p>Lisa Tantillo</p>
+                    <p>USR Resident</p>
                 </div>
             </div>
-            <div class="to-fulton-dishes">
-                <img class="fish-bucket" src="assets/images/fish_bucket.png" alt="seafood in a bucket">
-                <img class="lobster-dish" src="assets/images/lobster_plate.png" alt="cooked lobster in a plate">
-                <img class="fish-dish" src="assets/images/fish_bowl.png" alt="whole fish in a dish">
-            </div>
+        </div>
+    </section>
+    <section class="row section4">
+        <img src="./assets/images/cook_salmon.png" alt="">
+        <h1>to your home</h1>
+        <p></p>
+        <p></p>
+    </section>
 
-            <div class="to-home">
-                <img src="assets/images/cook_salmon.png" alt="salmon cook prep">
-                <div class="to-home-text">
-                    <h3>to your home</h3>
-                    <p>Now delivering to:</p>
-                    <p>Upper Saddle River</p>
-                    <p>Saddle River</p>
-                    <a href="" class="to-home-button">
-                            <p>Order Now</p>
-                    </a>
-
-                </div>
-            </div>
-        </main>
-
-
-		<?php
-	include 'lib/structure/footer.php';
-	?>
+    <?php
+    include 'lib/structure/footer.php';
+    ?>

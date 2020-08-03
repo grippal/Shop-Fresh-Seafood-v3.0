@@ -1,0 +1,28 @@
+// main: ../main.scss
+// File: _footer.scss
+// contains all the CSS that handles the footer.
+
+/* STYLES GO HERE */
+/* Mobile first styles go here */
+footer {
+    z-index: 100;
+    text-align: center;
+    margin: 10px auto;
+    font-style: $font;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+@media screen and (min-width: 400px) {
+    /* Smaller Mobile styles go here */
+    footer {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    /* Desktop styles go here */
+    footer {
+        font-size: 16px;
+    }
+}

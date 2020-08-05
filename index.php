@@ -17,7 +17,6 @@
     include 'lib/structure/header.php';
     ?>
 <div class="fixed-header-gap">
-
 </div>
 
 <main class="about container">
@@ -38,9 +37,11 @@
 
     </section>
     <section class="row section2">
-        <article class="row row1">
+        <div class="row row1">
+            <h2>from the Fulton Fish Market</h2>
+        </div>
+        <article class="row row2">
             <div class="column">
-                <h2>from the Fulton Fish Market</h2>
                 <p>located in the <strong> Bronx, NY</strong>, the
                     Fulton Fish Market, is the second largest fish market
                     <strong>worldwide</strong> and supplies NYC’s finest
@@ -53,15 +54,15 @@
                 <img src="./assets/images/fulton_fish_market.png" alt="">
             </div>
         </article>
-        <div class="row row2">
+        <div class="row row3">
             <button type="button" name="button">Learn where our
                 fish comes from!</button>
         </div>
     </section>
     <section class="row section3">
         <div class="column testimonials">
-            <p>“ I’ve tried fish from all of my local supermarkets and
-                this is by far the best seafood I have ever eaten. ”</p>
+            <p><strong>“</strong> I’ve tried fish from all of my local supermarkets and
+                this is by far the best seafood I have ever eaten. <strong>”</strong></p>
             <div class="customers">
                 <img src="./assets/images/anthony_ceccon.jpg" alt="">
                 <div class="customer-names">
@@ -71,8 +72,8 @@
             </div>
         </div>
         <div class="column testimonials">
-            <p>“ I always thought fish was supposed to taste fishy until
-                I ordered from you guys. ”</p>
+            <p><strong>“</strong> I always thought fish was supposed to taste fishy until
+                I ordered from you Shop Fresh Seafood. <strong>”</strong></p>
             <div class="customers">
                 <img src="./assets/images/lisa_tantillo.jpg" alt="">
                 <div class="customer-names">
@@ -85,8 +86,7 @@
     <section class="row section4">
         <img src="./assets/images/cook_salmon.png" alt="">
         <h1>to your home</h1>
-        <p></p>
-        <p></p>
+
     </section>
 
     <?php

@@ -1,37 +1,46 @@
 // main: ../main.scss
 // File: _layout.scss
 // contains all the CSS that handles the layout, such as the container and any grid systems.
-
 /* STYLES GO HERE */
+
+html {
+    background-color: $white;
+}
+
 .fixed-header-gap {
     display: inline-block;
-    height: 70px;
+    height: 65px;
 }
 
 .container {
-  max-width: $content-width;
-  margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .column {
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
 }
+@media screen and (min-width: $breakpoint) {
+    .column {
+        flex: 1;
+    }
 
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 1;
-  }
+    .fixed-header-gap {
+        display: inline-block;
+        height: 110px;
+    }
 
-  .fixed-header-gap {
-      display: inline-block;
-      height: 70px;
-  }
+    .container {
+        width: 85%;
+        max-width: $content-width;
+        margin: 0 auto;
+    }
 }

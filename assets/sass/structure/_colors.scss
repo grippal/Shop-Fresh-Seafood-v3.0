@@ -1,7 +1,8 @@
 // main: ../main.scss
 // File: _colors.scss
 // this file should ONLY contain the imports for the above files
-
+$content-width: 1100px;
+$breakpoint: 900px;
 $white: #F8F8F8;
 $form-white: #F2F2F2;
 $black: #272727;
@@ -10,6 +11,4 @@ $salmon: #F26958;
 $brighter-salmon: #FF7969;
 $blue-green: #5CACA3;
 $form-green: #59B99E;
-$content-width: 1000px;
-$breakpoint: 799px;
 $font: 'Montserrat', sans-serif;

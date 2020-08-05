@@ -20,7 +20,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: $breakpoint) {
     /* Desktop styles go here */
     footer {
         font-size: 16px;

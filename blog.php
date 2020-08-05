@@ -4,7 +4,7 @@
 <div class="fixed-header-gap">
 </div>
 
-<main class="about container">
+<main class="blog container">
 
 
     <section class="row section1">

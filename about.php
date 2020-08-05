@@ -55,8 +55,8 @@
             </div>
         </article>
         <div class="row row3">
-            <button type="button" name="button">Learn where our
-                fish comes from!</button>
+            <a href="blog.php" class="button">Learn about where our
+                fish comes from!</a>
         </div>
     </section>
     <section class="row section3">

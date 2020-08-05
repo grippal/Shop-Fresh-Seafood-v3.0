@@ -78,8 +78,8 @@ main.about {
                 }
 
                 h5 {
-                    margin: 35px auto;
-                    margin-bottom: 45px;
+                    margin: 35px auto 45px;
+
                     a.button {
                         text-decoration: none;
                         margin: 0;
@@ -91,6 +91,16 @@ main.about {
                         background-color: $white;
                         color: $brighter-salmon;
                         box-shadow: 0 3px 8px rgba(213, 102, 89, 0.75);
+
+                        &:focus,
+                        &:hover {
+                            transform: scale(1.01);
+                            background-color: #F0F0F0;
+                        }
+
+                        &:active {
+                            transform: scale(1);
+                        }
                     }
                 }
             }
@@ -143,14 +153,14 @@ main.about {
         div.row3 {
             width: 100%;
 
-            button {
+            a.button {
+                text-decoration: none;
                 width: 100%;
                 margin: 20px auto;
                 padding: 20px;
+                text-align: center;
                 align-items: center;
-                border: none;
                 border-radius: 12px;
-                cursor: pointer;
                 font-family: $font;
                 font-size: 18px;
                 font-weight: 600;
@@ -161,7 +171,6 @@ main.about {
 
                 &:focus,
                 &:hover {
-                    transform: scale(1.01);
                     background-color: #5AA8A0;
                 }
 
@@ -378,32 +387,6 @@ main.about {
                         text-align: center;
                         font-size: 18px;
                         font-weight: 400;
-                    }
-
-                    button {
-                        margin: 25px;
-                        padding: 15px 40px;
-                        align-items: center;
-                        border: none;
-                        border-radius: 12px;
-                        cursor: pointer;
-                        text-align: center;
-                        font-family: $font;
-                        font-size: 20px;
-                        font-weight: 600;
-                        background-color: $white;
-                        color: $brighter-salmon;
-                        box-shadow: 0 3px 8px rgba(213, 102, 89, 0.75);
-
-                        &:focus,
-                        &:hover {
-                            transform: scale(1.01);
-                            background-color: #F0F0F0;
-                        }
-
-                        &:active {
-                            transform: scale(1);
-                        }
                     }
                 }
             }

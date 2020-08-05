@@ -1,0 +1,100 @@
+// main: ../main.scss
+// File: _order.scss
+// styles.
+/* STYLES GO HERE */
+/* Mobile first styles go here */
+main.order {
+    background-color: $form-white;
+
+    section.section1 {
+
+    }
+
+    section.section2 {
+        width: 80%;
+        margin: 0 auto;
+
+        div.row1 {
+            h3 {
+                margin: 20px 0 10px 0;
+                padding: 0;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            p {
+                margin: 10px 0 25px 0;
+                padding: 0;
+                font-size: 18px;
+                font-weight: 200;
+            }
+        }
+
+        div.fresh-product {
+            display: grid;
+            grid-template-rows: repeat(8, 65px);
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 0 0;
+            margin: 0;
+            padding: 0;
+            //align-items: flex-start;
+            justify-content: space-between;
+            background-color: $white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(39, 39, 39, 0.16);
+
+            .item {
+                display: inline-grid;
+                margin: 0;
+                padding: 15px 0;
+                box-sizing: border-box;
+                font-size: 16px;
+                font-weight: 400;
+                //border: 1px solid black;
+
+            }
+
+            .col1 {
+                text-align: left;
+                padding-left: 20px;
+            }
+            .col2 {
+                text-align: center;
+                color: grey;
+            }
+            .col3 {
+                padding-left: 10px;
+                text-align: right;padding-right: 20px;
+            }
+
+            .last-row {
+                background-color: $brighter-salmon;
+                color: $white;
+                font-weight: 600;
+            }
+
+            .subtotal-text {
+                border-radius: 0 0 0 12px;
+            }
+
+            .subtotal-num {
+                border-radius: 0 0 12px 0;
+            }
+        }
+    }
+
+    section.section3 {
+
+    }
+
+    section.section4 {
+
+    }
+}
+@media screen and (min-width: 400px) {
+    /* Bigger mobile styles go here */
+}
+
+@media screen and (min-width: $breakpoint) {
+    /* Desktop styles go here */
+}

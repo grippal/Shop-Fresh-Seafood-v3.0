@@ -1,0 +1,104 @@
+// main: ../main.scss
+// File: _menu.scss
+// styles.
+/* STYLES GO HERE */
+/* Mobile first styles go here */
+main.menu {
+    background-color: $form-white;
+    font-family: $font;
+    color: $black;
+
+    section.section1 {}
+
+    section.section2 {
+        width: 80%;
+        margin: 0 auto;
+
+        div.row1 {
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        div.fresh-product {
+            display: grid;
+            grid-template-rows: repeat(8, 65px);
+            grid-template-columns: 2fr 1fr 1fr;
+            //gap: ;
+            margin: 0;
+            padding: 20px 20px;
+            align-items: flex-start;
+            justify-content: space-between;
+            background-color: $white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(39, 39, 39, 0.16);
+
+            .item {
+                margin: 0;
+                padding: 0;
+                //text-align: center;
+                //align-self: center;
+                justify-content: center;
+
+                box-sizing: border-box;
+                //border: 1px solid black;
+
+            }
+
+            .col1 {
+                text-align: left;
+            }
+            .col2 {
+                text-align: center;
+            }
+            .col3 {
+                text-align: right;
+            }
+        }
+    }
+
+    section.section3 {
+        width: 80%;
+        margin: 0 auto;
+
+        div.row1 {
+            h3 {
+                margin: 0;
+                padding: 0;
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        div.frozen-product {
+            display: grid;
+            grid-template-rows: repeat(9, 35px);
+            grid-template-columns: repeat(3, 1fr);
+            text-shadow: 0 5px 15px rgba(39, 39, 39, 0.4);
+
+            .item {
+                justify-content: center;
+                box-sizing: border-box;
+                border: 1px solid black;
+                align-items: center;
+            }
+        }
+    }
+
+    section.section4 {}
+}
+@media screen and (min-width: 400px) {
+    /* Bigger mobile styles go here */
+}
+@media screen and (min-width: $breakpoint) {
+    /* Desktop styles go here */
+}

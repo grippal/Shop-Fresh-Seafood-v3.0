@@ -73,30 +73,15 @@ header {
                     color: $salmon;
                 }
 
-                button {
-                    margin: 0;
-                    padding: 12px 20px;
-                    align-items: center;
-                    border: none;
-                    border-radius: 12px;
-                    cursor: pointer;
-                    text-align: center;
-                    font-family: $font;
-                    font-size: 16px;
-                    font-weight: 600;
-                    background-color: $brighter-salmon;
-                    color: $white;
-                    box-shadow: 0 1px 3px rgba(39, 39, 39, 0.16);
-                    justify-content: center;
-                    align-items: center;
-
-                    &:focus,
-                    &:hover {
-                        transform: scale(1.01);
-                    }
-
-                    &:active {
-                        transform: scale(1);
+                &:last-child {
+                    a {
+                        margin: 0;
+                        padding: 12px 20px;
+                        border-radius: 12px;
+                        font-size: 16px;
+                        background-color: $brighter-salmon;
+                        color: $white;
+                        box-shadow: 0 1px 3px rgba(39, 39, 39, 0.2);
                     }
                 }
             }
@@ -153,11 +138,9 @@ header {
                 align-items: center;
                 margin: 15px 20px;
 
-                &.active {}
-
                 li {
                     text-align: center;
-                    margin: 7px 15px 0;
+                    margin: 18px 15px 0;
 
                     a.active-page {
                         border-bottom: 3px solid $salmon;

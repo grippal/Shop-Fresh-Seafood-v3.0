@@ -32,7 +32,7 @@
             <h4>Now delivering to:</h4>
             <h6>Upper Saddle River</h6>
             <h6>Saddle River</h6>
-            <button type="button" name="button">Order Now!</button>
+            <h5><a href="order.php" class="button">Order Now!</a></h5>
         </div>
 
     </section>

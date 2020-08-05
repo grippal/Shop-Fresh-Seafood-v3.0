@@ -37,10 +37,10 @@
             </span>
             <a href="#" class="logo"> <img src="./assets/images/Shop-Fresh-Seafood-Flyer-Title.png" alt=""></a>
             <ul class="nav-list" id="js-nav-list">
-                <li><a href="#" class="active-page">About Us</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><button type="button" name="button">Order Now</button></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li><a href="order.php" class="button">Order Now</a></li>
             </ul>
         </nav>
     </header>

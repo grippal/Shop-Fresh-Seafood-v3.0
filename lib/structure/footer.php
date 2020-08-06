@@ -13,7 +13,6 @@
 
 ?>
 
-    	<footer>©Copyright 2020 by Shop Fresh Seafood. All rights reserved.</footer>
-	</main>
+    <footer>©Copyright 2020 by Shop Fresh Seafood. All rights reserved.</footer>
 </body>
 </html>

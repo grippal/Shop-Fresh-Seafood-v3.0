@@ -1,6 +1,7 @@
 // File: main.scss
 // this file should ONLY contain the imports for the above files
 
+@import './accessibility/screen_reader.scss';
 @import './structure/colors.scss';
 @import './structure/header.scss';
 @import './structure/footer.scss';

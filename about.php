@@ -13,9 +13,8 @@
 
     ?>
 
-<?php
-    include 'lib/structure/header.php';
-    ?>
+<?php include 'lib/structure/header.php'; ?>
+
 <div class="fixed-header-gap">
 </div>
 
@@ -88,7 +87,6 @@
         <h1>to your home</h1>
 
     </section>
+</main>
 
-    <?php
-    include 'lib/structure/footer.php';
-    ?>
+<?php include 'lib/structure/footer.php'; ?>

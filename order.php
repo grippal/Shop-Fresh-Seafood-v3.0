@@ -4,9 +4,42 @@
 
 <main class="order container">
     <form class="" action="index.html" method="post">
-
+        <div class="row row1 title">
+            <h3 class="row">Place Order</h3>
+            <p class="row">Orders must be placed by &nbsp<strong>Tuesday at 9:00 pm.</strong></p>
+        </div>
         <section class="row section1">
+            <div class="column column-left">
+                <h3 class="row">Delivery Instructions</h3>
+                <p class="row">To ensure on-time delivery, double check to make
+                    sure this information is accurate.</p>
+            </div>
+            <div class="column column-right order-info">
+                <label for="">Name: </label>
+                <input type="text" id="" name="" placeholder="First">
+                <input type="text" id="" name="" placeholder="Last">
 
+                <label for="">Street Address: </label>
+                <input type="text" id="" name="" placeholder="123 Lake St.">
+
+                <label for="">Town: </label>
+                <select id="" name="">
+                    <option value="upper-saddle-river">Upper Saddle River</option>
+                    <option value="saddle-river">Saddle River</option>
+                </select>
+
+                <label for="">E-mail: </label>
+                <input type="email" id="" name="" placeholder="JohnDoe@gmail.com">
+
+                <label for="">Phone Number: </label>
+                <input type="tel" id="" name="" placeholder="(201) 123-4567">
+
+                <label for="">Preferred Delivery Date: </label>
+                <select id="" name="">
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                </select>
+            </div>
         </section>
         <section class="row section2">
             <div class="row row1">

@@ -3,11 +3,11 @@
 // styles.
 /* STYLES GO HERE */
 /* Mobile first styles go here */
-strong {
-    color: $salmon;
-}
-
 main.about {
+    strong {
+        color: $salmon;
+    }
+
     section.section1 {
         position: relative;
         height: 375px;

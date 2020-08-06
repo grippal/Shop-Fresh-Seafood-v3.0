@@ -35,7 +35,7 @@
             <span class="navbar-toggle" id="js-navbar-toggle">
                 <i class="fas fa-bars"></i>
             </span>
-            <a href="#" class="logo"> <img src="./assets/images/Shop-Fresh-Seafood-Flyer-Title.png" alt=""></a>
+            <a href="about.php" class="logo"> <img src="./assets/images/Shop-Fresh-Seafood-Flyer-Title.png" alt=""></a>
             <ul class="nav-list" id="js-nav-list">
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="menu.php">Menu</a></li>

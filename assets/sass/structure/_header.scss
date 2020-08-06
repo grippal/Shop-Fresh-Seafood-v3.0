@@ -148,6 +148,10 @@ header {
                         padding: 16px 10px;
                         color: $salmon;
                     }
+
+                    &:last-child {
+                        margin: 18px 15px 0;
+                    }
                 }
             }
         }

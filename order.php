@@ -26,7 +26,7 @@
                 <p class="item col3">$8.50 lb.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1">Tilapia Filet</p>
@@ -34,7 +34,7 @@
                 <p class="item col3">$6.50 lb.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1">Super Lump Crab Meat</p>
@@ -42,7 +42,7 @@
                 <p class="item col3">$25.99 lb.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1">Colossal Crab Meat</p>
@@ -50,7 +50,7 @@
                 <p class="item col3">$34.99 lb.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1">Sea Scallops</p>
@@ -58,7 +58,7 @@
                 <p class="item col3">$16.99 lb.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1">Smoked Salmon</p>
@@ -66,7 +66,7 @@
                 <p class="item col3">$12.99 lb.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1">Smoked Salmon</p>
@@ -74,7 +74,7 @@
                 <p class="item col3">$6.99 pkg.</p>
                 <p class="item col4"><label class="sr-only" for="">Quantity in
                     pounds of .</label> <input type="number" id=""
-                    name="" placeholder="$0.0 lbs."></p>
+                    name="" placeholder="0.0 lbs."></p>
                 <p class="item col5">$0.00</p>
 
                 <p class="item col1 footer bottom-left">Fresh Product Subtotal</p>
@@ -113,7 +113,16 @@
                     <p class="item col1 footer bottom-left">Order Total</p>
                     <p class="item col2 footer bottom-right">$123.45</p>
                 </div>
+                <div class="row row3">
+                    <ul>
+                        <li>On Wednesday you will receive another e-mail
+                            detailing what day your order will be delivered.</li>
+                    </ul>
+                    <button type="button" name="button">Place Order</button>
+                </div>
             </section>
+
+
         </form>
     </main>
 

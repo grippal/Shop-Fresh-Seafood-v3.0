@@ -11,8 +11,7 @@
         <section class="row section1">
             <div class="column column-left">
                 <h3 class="row">Delivery Instructions</h3>
-                <p class="row">To ensure on-time delivery, double check to make
-                    sure this information is accurate.</p>
+                <p class="row">Double check your information to ensure delivery is accurate and on-time.</p>
             </div>
             <div class="column column-right order-info">
                 <label for="">Name: </label>
@@ -35,10 +34,20 @@
                 <input type="tel" id="" name="" placeholder="(201) 123-4567">
 
                 <label for="">Preferred Delivery Date: </label>
-                <select id="" name="">
-                    <option value="thursday">Thursday</option>
-                    <option value="friday">Friday</option>
-                </select>
+                <div class="radio-buttons">
+                    <input type="radio" class="sr-only" id="thursday" name="delivery-date" value="thursday">
+                    <label for="thursday">
+                        <h4>Thursday</h4>
+                        <p>11:00 am - 1:00 pm</p>
+                        <p>$5.00/order</p>
+                    </label>
+                    <input type="radio" class="sr-only" id="friday" name="delivery-date" value="friday">
+                    <label for="friday">
+                        <h4>Friday</h4>
+                        <p>11:00 am - 1:00 pm</p>
+                        <p>$5.00/order</p>
+                    </label>
+                </div>
             </div>
         </section>
         <section class="row section2">
@@ -140,7 +149,7 @@
                     <p class="item col1">Frozen Product Subtotal</p>
                     <p class="item col2">$123.45</p>
 
-                    <p class="item col1">Handling and Delivery</p>
+                    <p class="item col1">Delivery and Handling</p>
                     <p class="item col2">$5.00</p>
 
                     <p class="item col1 footer bottom-left">Order Total</p>

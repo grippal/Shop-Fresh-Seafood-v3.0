@@ -6,7 +6,19 @@
 html {
     background-color: $form-white;
 }
-
+/* ---------------------------------------- */
+// REMOVE INPUT TYPE=NUMBER ARROWS/SPINNERS
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/* ---------------------------------------- */
 main.order {
     strong {
         color: $black;
@@ -80,18 +92,77 @@ main.order {
                 }
 
                 div.order-info {
+                    margin: 20px auto;
+
                     label {
                         width: 100%;
                         margin: 10px 0;
                         font-size: 20px;
+                        font-weight: 500;
                     }
 
                     input {
-                        margin: 0px 0 25px;
+                        box-sizing: border-box;
+                        margin: 0 0 30px;
+                        padding: 10px;
+                        border: 2px solid rgba(39, 39, 39, 0.6);
+                        border-radius: 12px;
+
+                        &:focus {
+                            outline: none;
+                            border-color: $blue-green;
+                            box-shadow: 0 0 4px rgba(39, 39, 39, 0.3);
+                        }
+                    }
+
+                    .radio-buttons {
+                        label {
+                            display: inline-block;
+                            margin: 10px 0;
+                            padding: 15px 25px;
+                            background-color: $white;
+                            border: 2px solid rgba(39, 39, 39, 0.6);
+                            border-radius: 12px;
+
+                            h4 {
+                                margin: 0;
+                                padding: 5px 0;
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: rgba(39, 39, 39, 0.6);
+
+                                &:nth-child(3) {
+                                    margin-top: 30px;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    color: $black;
+                                }
+                            }
+                        }
+
+                        input[type="radio"] {
+                            &:checked + label {
+                                background-color: rgba(89, 185, 158, 0.10);
+                                border: 3px solid $form-green;
+                            }
+
+                            &:focus + label {}
+                        }
                     }
 
                     select {
-                        margin: 0px 0 25px;
+                        margin: 0 0 25px;
+
+                        &:focus {
+                            outline: none;
+                        }
                     }
                 }
             }
@@ -111,10 +182,23 @@ main.order {
                     box-shadow: 0 5px 15px rgba(39, 39, 39, 0.16);
 
                     p {
-                        width: auto;
-
                         input {
-                            width: 75px;
+                            box-sizing: border-box;
+                            width: 90px;
+                            height: 32px;
+                            margin: 0;
+                            padding: 0 5px;
+                            text-align: right;
+                            background-color: $white;
+                            border: none;
+                            border-bottom: 2px solid rgba(39, 39, 39, 1.0);
+                            border-radius: 0;
+
+                            &:focus {
+                                outline: none;
+                                border-color: $blue-green;
+                                box-shadow: 0 4px 4px -4px rgba(39, 39, 39, 0.6);
+                            }
                         }
                     }
 

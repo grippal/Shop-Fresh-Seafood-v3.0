@@ -21,7 +21,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/sass/main.min.css">
 
     <script src="https://kit.fontawesome.com/f2bd7c51c1.js" crossorigin="anonymous"></script>
@@ -37,7 +37,7 @@
             </span>
             <a href="about.php" class="logo"> <img src="./assets/images/Shop-Fresh-Seafood-Flyer-Title.png" alt=""></a>
             <ul class="nav-list" id="js-nav-list">
-                <li><a href="about.php">About Us</a></li>
+                <li><a href="index.php">About Us</a></li>
                 <li><a href="menu.php">Menu</a></li>
                 <li><a href="blog.php">Blog</a></li>
                 <li><a href="order.php" class="button">Order Now</a></li>
